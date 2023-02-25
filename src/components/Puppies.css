@@ -1,0 +1,44 @@
+.AllElements {
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10px;
+    background: linear-gradient(#c0c0c0,red);
+}
+.all {
+    background: #616161;
+}
+input {
+    font-size: 20px;
+    margin-top: 10px; 
+}
+#h2-tag {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+nav {
+   font-size: 25px;
+   
+}
+#puppy-img {
+    height: 200px;
+    
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#details {
+    text-align: center;
+}
+#puppyimg {
+    height: 500px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

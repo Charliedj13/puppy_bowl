@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
 import { useEffect, useState } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import "./components/Puppies.css"
 
 import { AllPuppies, SinglePuppy } from "./components"
 
@@ -25,9 +26,9 @@ const App = () => {
     }, [])
     return (
         <BrowserRouter>
-        <div>
+        <div className="all">
             <nav>
-                <Link to="/puppies">See all Puppy Players</Link>
+                <Link to="/puppies">Click Here to See all Puppy Players</Link>
             </nav>
         
             <Routes>
